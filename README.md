@@ -1,14 +1,15 @@
+This repository was originally archived by SilvurThorn on Feb 19, 2024.
 ![alt text](https://github.com/BILLPC2684/TGR-PRTO-C/raw/master/bin/TGR-logo(8x).png)
 
-# We moved over to https://github.com/BILLPC2684/TGR-PRTO-RAYLIB
+# We moved over to https://github.com/SilvurThorn/TGR-PRTO-RAYLIB
 
 # TGR-PRTO-C
 TheGameRazer is a custom retro 16-bit style emulator made in C,\
 this is still in prototype stages...
 
 # Websites:
-Official TGR Github: https://billpc2684.github.io/TGR-PRTO-C/ (WIP)\
-BILLPC2684's offical: http://Koranva-Forest.com/TheGameRazer/
+Official TGR Github: https://silvurthorn.github.io/TGR-PRTO-C/ (WIP)\
+Official TGR Webpage: http://Koranva-Forest.com/TheGameRazer/
 
 # Is the current build runnable? (will update)
 ## For Build: v0.0.42b Alpha
@@ -27,7 +28,7 @@ BILLPC2684's offical: http://Koranva-Forest.com/TheGameRazer/
 ## that will be Build v0.0.46x at Dec/xx/2019
 
 # Why does GitHub updates take so long?
- - i myself(BILLPC2684) is mostly the only one working on this project, so it's a slow process
+ - i myself(SilvurThorn) is mostly the only one working on this project, so it's a slow process
  - life issues and school blocking from getting work done(plus not to mention other projects)
  - i like to push the most stable build that i can before making the next big update
  - also i'm working on making python3 able to be compiled into TGR bytecode(the design is still being worked on)
@@ -80,7 +81,7 @@ ARGs are not needed to run a ROM but can be useful for debuging...
  - `-sav <file>` or `--extSAV <file>`: replace `<file>` with the `.sav` file you want to use !!not fully tested!!
 
 # How to make ROMs and compiling assembly programs:
-check out out the WorkingInProgress offical github page: https://billpc2684.github.io/TGR-PRTO-C/ \
+check out out the WorkingInProgress offical github page: https://silvurthorn.github.io/TGR-PRTO-C/ \
 (this should have everything you need)
 
 # Want to join our  discord server? it's free
@@ -125,13 +126,13 @@ The assembly code can contain any of the following instructions: (alittle broken
  - `rsav`    `<A(address)> <B(reg)>`
  - `wsav`    `<A(address)> <B(reg)>`
  - `rrom`    `<A(address)> <B(address)> <C(reg)>`
- - `hlt`     [`<HALT_INFO>`](https://billpc2684.github.io/TGR-PRTO-C/systemSpecs.html) click to see them
+ - `hlt`     [`<HALT_INFO>`](https://silvurthorn.github.io/TGR-PRTO-C/systemSpecs.html) click to see them
  - `disp`    `<A(reg)> <B(reg[optional])> <C(reg[optional])>`
  - `flags`   `<A(reg)>`
  - `dsend`   `<A(reg)> <deviceID> <instruction>`
  - `drecv`   `<A(reg)> <deviceID> <instruction>`
  - `icout`   `<A(reg)> <B(reg)>`
- - `exec`    [`<EXEC_INFO>`](https://billpc2684.github.io/TGR-PRTO-C/systemSpecs.html) click to see them
+ - `exec`    [`<EXEC_INFO>`](https://silvurthorm.github.io/TGR-PRTO-C/systemSpecs.html) click to see them
  - `rbios`   `<A(address)> <B(address)> <C(reg)>`
  - `push`    `<A(reg or int)>`
  - `pop`     `<A(reg or int)>`
